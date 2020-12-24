@@ -13,6 +13,7 @@ https://docs.cypress.io/guides/getting-started/installing-cypress.html#Direct-do
 Abra o terminal service
 Acesse o diretório do projeto de teste e execute os testes com os comandos abaixo: 
 npm install --save-dev cypress 
+npm install faker
 npx cypress open 
 "npx cypress run -b (chrome, firefox, edge)" para execução no navegador desejado.
 "npx cypress run" para execução o headless no Electron.
